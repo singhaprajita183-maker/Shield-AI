@@ -1,7 +1,3 @@
----
-
-### 📂 File 2: `app.py`
-*(Repository mein **`Add file` -> `Create new file`** par click karke file ka naam **`app.py`** rakho aur neeche diya gaya Python code paste kar do)*
 
 ```python
 import streamlit as st
