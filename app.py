@@ -1,8 +1,5 @@
-
-```python
 import streamlit as st
 import time
-import random
 import pandas as pd
 
 # Page Configuration
@@ -45,7 +42,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Sidebar Control
+# Sidebar Navigation
 with st.sidebar:
     st.image("https://img.icons8.com/isometric-color/100/shield.png", width=70)
     st.title("Shield AI Hub")
@@ -121,7 +118,7 @@ with tab2:
     
     # Mock Coordinates Data for New Delhi
     df = pd.DataFrame(
-        np_data := [
+        [
             [28.6139, 77.2090],
             [28.6145, 77.2095],
             [28.6120, 77.2050],
